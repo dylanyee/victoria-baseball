@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Victoria Baseball Club</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, userscalable=no ">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="style.css" title="" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="animate.css" title="" type="text/css" media="screen" charset="utf-8">
+		<script src="http://code.jquery.com/jquery-1.7.2.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="#" class="link-home">Victoria Baseball</a>
+				<a href="#">Blog</a>
+			</nav>
+		</header>
+		<div id="content" class="center_me">
+			<h1>Victoria, Baseball is back.</h1>
+			<p>If you want to keep in touch you can on follow @victoriabaseball on <a href="#" class="tw">twitter</a> or be friends with us on <a href="#" class="fb">facebook</a>. If you're really antsy you can subscribe to our <a href="#" class="ml">mailing list</a> and be the first to know.</p>
+			<span class="form-wrap mailing-list">
+				<span class="form-header subscribe"></span>
+				<span class="form-body">
+					<form>
+						<span class="form-section segments">
+							<h6>What news are you most interested in?</h6>
+							<label class="checkbox"><input type="checkbox"/>volunteer</label>
+							<label class="checkbox"><input type="checkbox"/>billet</label>
+							<label class="checkbox"><input type="checkbox"/>management</label>
+							<label class="checkbox"><input type="checkbox"/>pitcher</label>
+							<label class="checkbox"><input type="checkbox"/>lawnmower</label>
+							<label class="checkbox"><input type="checkbox"/>season tickets</label>
+						</span>
+						<span class="form-section">
+							<h6>What's your email address?</h6>
+							<input type="text" placeholder="myemail@example.com"><a href="#" id="submit">subscribe</a>
+						</span>
+					</form>
+				</span>
+			</span>
+			<span class="form-wrap name-team">
+				<span class="form-header"></span>
+				<span class="form-body">
+					<form>
+						<span class="form-section name-the-team-input">
+							<h6>What do you think we should name the team?</h6>
+							<input type="text" placeholder="Victoria Vandals">
+						</span>
+						<span class="form-section">
+							<h6>What's your email address?</h6>
+							<input type="text" placeholder="myemail@example.com"><a href="#" id="submit">submit</a>
+						</span>
+					</form>
+				</span>
+			</span>
+		</div>
+		<!--script>
+			$(window).resize(function(){
+
+				$('.center_me').css({
+					position:'absolute',
+					left: ($(window).width() - $('.center_me').outerWidth())/2,
+					top: ($(window).height() - $('.center_me').outerHeight())/2
+				});
+			
+			});
+			
+			// To initially run the function:
+			$(window).resize();
+		</script-->
+	</body>
+</html>
