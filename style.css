@@ -32,6 +32,7 @@ header {
 }
 nav {
 	margin: 0px auto;
+	display: inline;
 }
 nav a {
 	text-transform: uppercase;
@@ -42,6 +43,24 @@ nav a {
 .link-home {
 	font-weight: normal;
 }
+.sm-links {
+	float: right;
+	line-height: 50px;
+}
+.twitter-link, .facebook-link {
+	margin-right: 10px;
+	display: inline-block;
+	width: 24px;
+	height: 20px;
+}
+.twitter-link {
+	background: url(t_logo.png) no-repeat;
+	background-size: 24px 20px;
+}
+.facebook-link {
+	background: url(f_logo.png) no-repeat;
+	background-size: 20px 20px;
+}
 #content {
 	text-align: ;
 	background: rgba(0,0,0,0.5);
@@ -51,7 +70,12 @@ nav a {
 	padding: 40px;
 	margin: 50px auto;
 }
-
+.subscribe-to-info {
+	
+}
+.name-the-team {
+	
+}
 .form-wrap {
 	background-image: -webkit-linear-gradient(#eeeeee 0%, #c5c5c5 100%);
 	box-shadow: 0px 0px 10px rgba(0,0,0,1);
@@ -97,6 +121,10 @@ a.tw {
 a.ml {
 	color: #efff12;
 	font-weight: bold;
+}
+h1 {
+	border-bottom: 2px dashed #fff;
+	padding-bottom: 10px;
 }
 h6 {
 	margin: 5px 0px;
@@ -152,6 +180,9 @@ and (max-device-width : 480px) {
 	header {
 		padding: 0px 10px;
 	}
+	.link-home {
+		display: block;
+	}
 	#content {
 		width: 90%;
 		padding: 10px;
@@ -161,7 +192,14 @@ and (max-device-width : 480px) {
 		padding: 0px 10px 10px 10px;
 	}
 	label {
-		width: 40%;
+		width: 40%;	
+	}
+	.sm-links {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	
 }
 
 
